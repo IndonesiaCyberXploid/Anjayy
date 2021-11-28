@@ -2,10 +2,23 @@
 # hargain authornya
 # subscribe INDONESIA CYBER X0LOID
 
+green='\033[0;32m'
+greenlight='\033[32;1m'
+red='\033[31;1m'
+white='\033[37;1m'
+black='\033[30;1m'
+yellow='\033[33;1m'
+yellowlight='\033[1;33m'
+blue='\033[36;1m'
+bluelight='\033[0;36m'
+
+#BUAT REGISTRASI DULU
+
 #regis dulu
 clear                                 
-echo $red "Masukkan Username Dan Password Di Bawah Ini>
-
+echo $red "Masukkan Username Dan Password Di Bawah Ini"
+echo $green "https://bit.ly/3HYZXyK"
+echo $red "SUBSCRIBE" $black "Indonesia Cyber Xploid"
      read -p "User =>" user
      read -p "Pass =>" pass
         sleep 0.1
@@ -16,51 +29,34 @@ if [ $user = "Bangsad" ]
       echo $red "#####################"
    echo $red "##"$yellow "Username Succes"$red "##"
    echo $red "#####################"
-   sleep 0.1                                             else
+   sleep 0.1                                             
+   else
    echo $black "#####################"
-   echo $black "##"$red "Passwor Succes"$black "##"
-
+   echo $black "##"$red "Password Succes"$black "##"
    echo $black "####################"
    sleep 3
    sleep 0.1
-fi
-#passwordnya sobb
-if [ $pass = "INDONESIA CYBER XPLPOD" ]
-    then
+#passwordnya sob
+if [ $pass = "INDONESIA XPLOID TEAM" ]
    echo $red "#####################"
    echo $red "##"$yellow "Password Succes"$red "##"
    echo $red "#####################"
-   sleep 3
-   sleep 0.1
-#usernamenya sob
-if [ $user = "admin" ]
-   then
-      echo $red "#####################"
-   echo $red "##"$yellow "Username Succes"$red "##"      echo $red "#####################"
    sleep 0.1
    else
    echo $black "#####################"
-   echo $black "##"$red "Passwor Succes"$black "##"   
+   echo $black "##"$red "Password Failed"$black "##"
    echo $black "####################"
    sleep 3
    sleep 0.1
-fi
-#passwordnya sobb
-if [ $pass = "INDONESIA CYBER XPLPOD" ]
-    then
-   echo $red "#####################"
-   echo $red "##"$yellow "Password Succes"$red "##"
-   echo $red "#####################"
-   sleep 3
-   sleep 0.1
-fi
+
 clear
 # tampilannya
 echo $yellow "######################"
 echo $yellow "####"$black "000"$yellow "####"$black ">
 echo $yellow "####"$black "000"$yellow "####"$black ">
 echo $yellow "######################"
-echo $yellow "######################"                 echo $yellow "###"$black "=============="$yellow "###"
+echo $yellow "######################"                 
+echo $yellow "###"$black "=============="$yellow "###"
 echo $yellow "###"$black "=============="$yellow "###"
 echo $yellow "######################"
 # coddingan termux dan kali linux
